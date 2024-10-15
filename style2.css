@@ -1,0 +1,103 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif; /* Setting the default font */
+    line-height: 1.6; /* Adjusting line height for readability */
+    margin: 0; /* Resetting default margin */
+    padding: 0; /* Resetting default padding */
+}
+
+/* Navigation Bar Styling */
+.nav-bar {
+    background: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding for the navigation bar */
+    text-align: center; /* Centering the text */
+}
+
+/* Section Styling */
+.intro, .about, .portfolio, .contact {
+    padding: 20px; /* Padding inside each section */
+    margin: 20px; /* Margin between sections */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners for sections */
+}
+
+/* Header Text Color */
+h1, h2 {
+    color: #333; /* Dark text color for headers */
+}
+
+h3 {
+    color: #555; /* Slightly lighter color for sub-headers */
+}
+
+/* Form Styling */
+form {
+    display: flex; /* Using flexbox for form layout */
+    flex-direction: column; /* Arranging items in a column */
+}
+
+/* Label Styling */
+label {
+    margin-top: 10px; /* Margin above each label */
+}
+
+/* Input Fields Styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea,
+select {
+    padding: 10px; /* Padding inside input fields */
+    margin-top: 5px; /* Space above input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+/* Submit Button Styling */
+input[type="submit"] {
+    margin-top: 15px; /* Space above the button */
+    padding: 10px; /* Padding inside the button */
+    background: #5cb85c; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+/* Button Hover Effect */
+input[type="submit"]:hover {
+    background: #4cae4c; /* Darker green on hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center; /* Centering footer text */
+    padding: 20px; /* Padding inside footer */
+    background: #333; /* Dark background color for footer */
+    color: white; /* White text color for footer */
+}
+
+/* Footer Links Styling */
+footer a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* No underline */
+}
+
+/* Footer Links Hover Effect */
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .intro, .about, .portfolio, .contact {
+        margin: 10px; /* Reduced margin for smaller screens */
+        padding: 15px; /* Reduced padding for smaller screens */
+    }
+
+    h1, h2, h3 {
+        font-size: 1.5em; /* Adjusted font size for headers */
+    }
+}
